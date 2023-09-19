@@ -9,9 +9,25 @@
     margin: 20px;
     
 }
+.modif-titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -20px;
+}
 h1{
     text-align: center;
     color: #011627;
+}
+h2{
+    width: 70%;
+    margin-right: 20px;
+}
+.suppr{
+    position: relative;
+    top: -390px;
+    left: 175px;
 }
 ul{
     list-style-type:none;

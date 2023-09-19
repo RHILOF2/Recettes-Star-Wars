@@ -1,0 +1,29 @@
+.original-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    transition: 0.3s;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+  
+.original-button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #011627;
+    border: 1px solid #011627;
+}
+.btns{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
