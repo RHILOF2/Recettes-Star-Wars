@@ -38,7 +38,7 @@ function Liste() {
             <img src={recette.photo} />
             <AiOutlineCloseCircle style={{ fontSize: '30px', cursor: 'pointer'  }} className='suppr'/>
             <div className="modif-titre">
-              <h2>{recette.titre}</h2>
+              <h2><a href={`/recipe/${recette.id}`}>{recette.titre}</a></h2>
               {liked[recette.id] ? (
                 <AiTwotoneHeart
                   style={{ fontSize: '30px', cursor: 'pointer' }}
@@ -59,7 +59,6 @@ function Liste() {
             </ul>
             <div className="btns">
               <button className='original-button'>Modifier</button>
-              <button className='original-button'> Voir plus</button>
             </div>
           </div>
         ))}

@@ -1,0 +1,120 @@
+p{
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 99%;
+    padding-left: 20px;
+}
+.img-info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    
+}
+img{
+    width: 450px;
+    height: 450px;
+}
+.ul {
+    display: grid;
+    grid-template-columns: 5fr 5fr  ;
+    grid-template-rows: 2fr 2fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    justify-items: stretch;
+    align-items: stretch;
+    margin: 20px;
+    width: 80%;
+    height: 200px;
+    background-color: #011627;
+    border-radius: 20px;
+}
+.li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-left: -18px;
+    margin-right: 8px;   
+}
+.h2{
+    color: #011627;
+}
+.haut{
+    margin-bottom: -15px;
+}
+.bas{
+    margin-top: -15px;
+}
+.ingredients{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -278px;
+}
+.etape{width: 38%;}
+.fe{
+    width: 570px;
+    color: #011627;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin-left: 205px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+.ul3{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -4px;
+    width: 300px;
+}
+.ul2{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -30px;
+    margin-top: -5px;
+}
+.fefe{
+    color: #011627;
+    padding-left: 15px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.btns2{
+    height: 50vh;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.original-button-2{
+    margin: 10px;
+    height: 60px;
+    width: 204px;
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #011627;
+}
+.original-button-2:hover{
+    cursor: pointer;
+}
+.red{border: 3px solid #e30909;}
+.green{border: 3px solid #42d927;}
+.orange{border: 3px solid #fc7312;}
+.red:hover{background-color: #e30909;color: white;}
+.green:hover{background-color: #42d927;color: white;}
+.orange:hover{background-color: #fc7312;color: white;}
