@@ -1,0 +1,87 @@
+.form{
+    width: 50%;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.gauche{
+    width: 50%;
+    
+}
+.droite{
+    position: absolute;
+    width: 50%;
+    top: 22%;
+    left: 30%;
+}
+label{
+    color: #011627;
+    font-size: 20px;
+}
+input{
+    width: 400px;
+    height: 3vh;
+    border: 2px solid #011627;
+}
+textarea{
+    width: 400px;
+    height: 3vh;
+    border: 2px solid #011627;
+}
+ul{
+    width: 900px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    width: 400px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 800px;
+    flex-direction: row;
+}
+button{
+    margin: 10px;
+    height: 60px;
+    width: 150px;
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #011627;
+    border: 2px solid #011627;
+}
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+select{
+    
+    margin: 20px;
+    height: 60px;
+    width: 140px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #011627;
+    border: 2px solid #011627;
+}
+option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button:hover{
+    color: #fff;
+    border: 2px solid #011627;
+    background-color: #011627;
+    cursor: pointer;
+}
