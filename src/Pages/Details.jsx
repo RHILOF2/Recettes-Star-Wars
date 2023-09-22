@@ -39,18 +39,18 @@ function Details() {
   return (
     <>
       <h1>Votre recette : {recette.titre}</h1>
-      <div className='container'>
+      <div className='container-detail'>
         <div className="img-info">
-          <img src={recette.photo} />
+          <img src={recette.photo} className='img-detail'/>
           <div className="btns2">
             <button className='original-button-2 green'>Modifier</button>
             <button className='original-button-2 red'>Supprimer</button>
 
             <ul className='ul'>
-              <p className='li haut'><AiFillSliders style={{ fontSize: '20px' }} /><br/>   {recette.niveau}</p>
-              <p className='li haut'><FaUser style={{ fontSize: '20px' }} /><br/>   {recette.personnes}</p>
-              <p className='li bas'><BiTimer style={{ fontSize: '30px' }} /><br/>   {recette.tempsPreparation}</p>
-              <p className='li bas'>{liked[recette.id] ? (
+              <p className='p2 haut'><AiFillSliders style={{ fontSize: '20px' }} /><br/>   {recette.niveau}</p>
+              <p className='p2 haut'><FaUser style={{ fontSize: '20px' }} /><br/>   {recette.personnes}</p>
+              <p className='p2 bas'><BiTimer style={{ fontSize: '30px' }} /><br/>   {recette.tempsPreparation}</p>
+              <p className='p2 bas'>{liked[recette.id] ? (
                 <AiTwotoneHeart style={{ fontSize: '30px', cursor: 'pointer' }} onClick={() => toggleLike(recette.id)}/>
               ) : (
                 <AiOutlineHeart style={{ fontSize: '30px', cursor: 'pointer' }} onClick={() => toggleLike(recette.id)}/>

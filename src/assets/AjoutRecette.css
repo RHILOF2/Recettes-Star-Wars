@@ -34,10 +34,10 @@ textarea{
 }
 ul{
     width: 900px;
-    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 li{
     width: 400px;

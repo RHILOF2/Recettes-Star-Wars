@@ -50,7 +50,7 @@ function Liste() {
       <div className="container-card">
         {recettes.map((recette) => (
           <div className="card" key={recette.id}>
-            <img src={recette.photo} />
+            <img src={recette.photo} className='img'/>
             <AiOutlineCloseCircle style={{ fontSize: '30px', cursor: 'pointer'  }} className='suppr'/>
             <div className="modif-titre">
               <h2><a href={`/recipe/${recette.id}`}>{recette.titre}</a></h2>
@@ -67,10 +67,10 @@ function Liste() {
               )}                 
             </div>
 
-            <ul>
-              <li><AiFillSliders style={{ fontSize: '48px' }} /><br/> {recette.niveau}</li>
-              <li><FaUser style={{ fontSize: '48px' }} /><br/> {recette.personnes}</li>
-              <li><BiTimer style={{ fontSize: '100px' }} /><br/> {recette.tempsPreparation}</li>
+            <ul className='vraiul'>
+              <li className='vraili'><AiFillSliders style={{ fontSize: '48px' }} /><br/> {recette.niveau}</li>
+              <li className='vraili'><FaUser style={{ fontSize: '48px' }} /><br/> {recette.personnes}</li>
+              <li className='vraili'><BiTimer style={{ fontSize: '100px' }} /><br/> {recette.tempsPreparation}</li>
             </ul>
             <div className="btns">
               <button className='original-button'>Modifier</button>

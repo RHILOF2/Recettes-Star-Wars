@@ -12,19 +12,21 @@ function Navigation() {
         <div className="search">
             <div className="wrap">
               <div className="search">
+                <select name="" id="">
+                  <option value="ml">ml</option>
+                    <option value="cl">cl</option>
+                </select>
                 <input type="text" className="searchTerm" placeholder="Quelle est ta recette préférée ?" />
                 <button type="submit" className="searchButton">
-                  <span className='trait1'></span>
-                  
-                  <span className='trait2'>GO !</span>
+                  GO !
                 </button>
               </div>
             </div>
         </div>
       <div className="liens">
-        <a className='lien'>0 Favoris</a>
+        <a className='lien' href={`/favoris/`}>0 Favoris</a>
         <div className="sepa"></div>
-        <a className='lien'>Ajouter ma recette</a>
+        <a className='lien' href={`/add/`}>Ajouter ma recette</a>
       </div>
         
       </div>
