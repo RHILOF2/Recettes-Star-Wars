@@ -1,5 +1,5 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import ErrorPage from "./error-page";
 import {
   BrowserRouter as Router,
@@ -13,10 +13,11 @@ import Liste from "./Pages/Liste";
 import Details from "./Pages/Details";
 import Favoris from "./Pages/Favoris";
 import AjoutRecette from "./Pages/AjoutRecette";
+import ModifRecette from "./Pages/ModifRecette";
 
 
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Router>
       <Navigation />
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="recipe/:id" element={<Details />} />
           <Route path="favorites/" element={<Favoris />} />
           <Route path="add/" element={<AjoutRecette />} />
+          <Route path="recipe/edit/:id" element={<ModifRecette />} />
           <Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>

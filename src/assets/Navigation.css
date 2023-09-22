@@ -9,6 +9,9 @@
     width: 30%;
     margin-left: 40px;
 }
+.a:hover{
+    color: white;
+}
 input{
     margin-right: 50px;
     background-color: #fff;
@@ -34,6 +37,14 @@ input{
     padding-right: 50px;
     height: 100%;
 }
+.filtre{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border: 2px solid #011627;
+    border-radius: 10px;
+    padding-left: 5px;
+}
 .sepa{
     border-right: 1px solid white;
     height: 60%;
@@ -45,58 +56,23 @@ input{
 .search {
     height: 100%;
     width: 100%;
-    position: relative;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .searchTerm {
-    width: 100%;
+    width: 350px;
     border: 3px solid #fff;
     border-right: none;
     padding: 5px;
-    height: 20px;
-    border-radius: 5px 0 0 5px;
+    height: 31px;
+    border-radius: 10px;
     outline: none;
     color: #011627;
 }
 
 .searchTerm:focus{
     color: #fff;
-}
-span{
-    color: #011627;
-    margin-left: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: -5px;
-}
-.trait2:hover{
-    
-}
-.searchButton {
-    width: 75px;
-    height: 36px;
-    border: 1px solid #fff;
-    background: #fff;
-    text-align: center;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    font-size: 20px;
-    margin-left: -50px;
-}
-
-.wrap{
-    width: 40%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.trait1{
-    border: 1px solid black;
-    transform: translateY(-50%);
-    border-radius: 10%;
-    
 }

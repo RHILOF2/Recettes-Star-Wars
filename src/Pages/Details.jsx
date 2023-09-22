@@ -26,7 +26,7 @@ function Details() {
   }, [id]);
 
   if (!recette) {
-    return <p>Chargement en cours...</p>;
+    return <p className='chargement'>Chargement en cours...</p>;
   }
 
   const toggleLike = (recetteId) => {

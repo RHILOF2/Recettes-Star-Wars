@@ -73,7 +73,7 @@ function Liste() {
               <li className='vraili'><BiTimer style={{ fontSize: '100px' }} /><br/> {recette.tempsPreparation}</li>
             </ul>
             <div className="btns">
-              <button className='original-button'>Modifier</button>
+              <button className='original-button'><a href={`/recipe/edit/${recette.id}`} className='modif-a'>Modifier</a></button>
             </div>
           </div>
         ))}

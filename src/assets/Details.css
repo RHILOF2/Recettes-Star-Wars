@@ -5,7 +5,6 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     padding-left: 20px;
     flex-direction: row;
 }
@@ -15,6 +14,14 @@ p{
     align-items: center;
     width: 50%;
     
+}
+.chargement{
+    font-size: 30px;
+    color: #011627;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 35%;
 }
 .img-detail{
     width: 450px;

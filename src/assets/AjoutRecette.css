@@ -7,6 +7,7 @@
     align-items: start;
     justify-content: start;
     flex-direction: column;
+    padding-left: 20px;
 }
 .gauche{
     width: 50%;
@@ -43,6 +44,7 @@ li{
     width: 400px;
     height: 10vh;
     display: flex;
+    margin-left: -50px;
     align-items: center;
     justify-content: start;
     width: 800px;

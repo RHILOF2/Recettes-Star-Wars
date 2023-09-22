@@ -1,17 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../assets/AjoutRecette.css'
 import RecipeForm from '../Components/RecipeForm';
 
-function AjoutRecette() {
-  
+function ModifRecette() {
   return (
     <div className='container'>
-      <h1>Ajouter une nouvelle recette</h1>
+      <h1>Modifier cette recette</h1>
 
       <RecipeForm />
       
     </div>
-  );
+  )
 }
 
-export default AjoutRecette;
+export default ModifRecette;

@@ -55,7 +55,9 @@ h2{
     height: 7vh;
     font-size: 20px;
 }
-
+.modif-a:hover{
+    color: white;
+}
 br{
     margin-bottom: 7px;    
 }
